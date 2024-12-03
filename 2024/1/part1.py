@@ -1,5 +1,3 @@
-
-
 with open("./input.txt", "r") as fp:
     left_ids, right_ids = zip(*[line.split() for line in fp.readlines()])
     distance_sum = 0
